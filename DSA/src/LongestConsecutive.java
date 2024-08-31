@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -10,6 +11,8 @@ public class LongestConsecutive {
         int result = maxlength(arr);
 
         System.out.println(result);
+        HashSet<Integer> set = new HashSet<>();
+
     }
 
     static int maxlength(int[] nums){

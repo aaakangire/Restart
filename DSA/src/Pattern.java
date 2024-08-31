@@ -13,6 +13,8 @@ public class Pattern {
         System.out.println();
 
         pattern12(5);
+
+        pattern11(5);
     }
 
     static void pattern1(int n){
@@ -21,6 +23,15 @@ public class Pattern {
                 System.out.print("* ");
             }
             System.out.println(" ");
+        }
+    }
+
+    static void pattern11(int n){
+        for(int r = 0; r<n; r++) {
+            for(int c = 0; c < r+1; c++){
+                System.out.print((r+c+1) %2);
+            }
+            System.out.println();
         }
     }
 
